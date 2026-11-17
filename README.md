@@ -1,5 +1,5 @@
 # OPTO - Photo Storage Optimizer
-#Project Overview
+# Project Overview
 OPTO is a python photo storage optimizer that allows users to organize their photo libraries and free up their storage. I came up with this idea because i constantly have a bunch of pictures and no storage on my phone. I find myself having to pay more iCloud storage rather than going through the pictures i don't need anymore.
 # Project Features: 
 - Identify uplicated photos
