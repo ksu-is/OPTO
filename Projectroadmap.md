@@ -5,12 +5,13 @@ OPTO is a Python photo storage optimizer designed to help organize its users pho
 - [x] Verify that my program was approved by my professor
 - [x] Create my OPTO repository on Github
 - [x] Create and update my README.md file
-- [ ] Research existing Python project that also help with identifying duplicated photos.
-- [ ] Clone the existing project and review its code
-- [ ] Try to run the project using test images
-- [ ] Document my research and all testing results
-- [ ] Complete Sprint 1 review and log in D2L
-
+- [x] Research existing Python project that also help with identifying duplicated photos.
+- [x] Clone the existing project and review its code
+- [x] Try to run the project using test images
+- [x] Document my research and all testing results
+- [x] Complete Sprint 1 review and log in D2L
+## Sprint 1 Research and test results:
+I spent time researching different python projects that could help me build OPTO and came across PyDuplicateFinder by sw4tk on Github (https://github.com/sw4tk/PyDuplicateFinder). I chose to test this and downloaded it and tested it in VS code. This program uses hashlib library which creates hashes of files and identifies which images are exact duplicates of each other. In VS code i created folders containing exact images in each. i ran the program using python3 main.py . The program called out the duplicated images (including one with different name) and ignored the non-duplicated images. This program helped me understand how i could use hashlib in my own program for OPTO.One flaw i noticed in this program is that the image has to be the exact duplicate file rather than photos that look similar. i inserted two of the same images that were simply just saved differently, and this program was not able to detect that it was the same image. 
 ## Sprint 2 - Beginning Development
 - [ ] Create the main OPTO python file
 - [ ] Create a folder with sample images to be used for testing
